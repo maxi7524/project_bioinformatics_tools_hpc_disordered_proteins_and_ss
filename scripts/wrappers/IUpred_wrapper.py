@@ -7,7 +7,7 @@ import sys
 
 # params
 ## path to iupred 
-iupred_path = "/home/ms488923/iupred2a"
+iupred_path = "/home/ms488923/repositories/project_bioinformatics_tools_hpc_disordered_proteins_and_ss/iupred2a"
 
 
 # Load part 

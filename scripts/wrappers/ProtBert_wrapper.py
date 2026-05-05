@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification, pipelin
 
 # params
 ## Path to loaded model
-model_id = "/home/ms488923/model_bert"
+model_id = "/home/ms488923/repositories/project_bioinformatics_tools_hpc_disordered_proteins_and_ss/model_bert"
 
 def main():
     parser = argparse.ArgumentParser(description="ProtTrans GPU Wrapper")

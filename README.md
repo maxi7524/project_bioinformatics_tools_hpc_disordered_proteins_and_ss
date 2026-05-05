@@ -28,11 +28,6 @@ To maximize computational throughput and maintain cluster stability, the followi
 
 To help navigation, the scripts are categorized by their role in the pipeline, as well as all scripts runs are in [SCRIPTS_RUN_HISTORY.md](SCRIPTS_RUN_HISTORY.md):
 
-### 0. Environment
-To run ProtBert you need to load provided enviroment:
-```shell
-source venv_ProtBert/bin/activate
-```
 
 ### 1. Data Preparation
 *   `scripts/data/download_data.sh` – Automates the retrieval of raw datasets from UniProt and DisProt.
@@ -53,3 +48,36 @@ source venv_ProtBert/bin/activate
 *   `scripts/analysis/summarize_test_stats.py` – Parses logs to extract execution time and memory usage metrics.
 *   `scripts/analysis/pct_merge.py` – Merges individual statistics into the final summary tables used in the report.
 
+## Environment & Installation
+
+### ProtBert installation and activation
+```shell
+# 1. Create and activate virtual environment
+python3 -m venv venv_ProtBert
+source venv_ProtBert/bin/activate
+
+# 2. Install required dependencies
+pip install torch transformers sentencepiece
+
+# 3. Download and save ProtBert model to local folder
+python3 -c '
+from transformers import AutoTokenizer, AutoModelForTokenClassification
+model_name = "Rostlab/prot_bert_bfd_ss3"
+save_path = "model_bert"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForTokenClassification.from_pretrained(model_name)
+tokenizer.save_pretrained(save_path)
+model.save_pretrained(save_path)
+```
+
+```
+# 1. Download IUPred3 archive
+wget [https://iupred.elte.hu/static/iupred2a.tar.gz](https://iupred.elte.hu/static/iupred2a.tar.gz)
+
+# 2. Extract and rename directory to match wrappers
+tar -xzf iupred2a.tar.gz
+mv iupred2a_src iupred2a 
+
+# 3. Verify path
+# Ensure the "iupred_path" in IUpred_wrapper.py points to this directory
+```
