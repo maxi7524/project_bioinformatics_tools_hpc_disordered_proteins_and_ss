@@ -1,0 +1,10 @@
+Metric,Value
+Source File,gpu_stats.csv
+Total Sequences,586
+Avg Length [aa],550.37
+Avg Time/Seq [s],0.0704
+Avg Time/AA [ms],0.15
+Avg Memory [MB],1715.25
+Max Memory [MB],1717.0
+Correlation,0.989
+Human Proteome Est (20k prot) [h],0.39

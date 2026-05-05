@@ -1,0 +1,12 @@
+Experiment_ID,Total Sequences,Avg Length [aa],Avg Time/Seq [s],Avg Time/AA [ms],Avg Memory [MB],Max Memory [MB],Correlation,Human Proteome Est (20k prot) [h]
+time_estimation_ProtBert_E_coli_cpu,362,298.83,1.9875,7.13,0.0,0,0.9916,11.04
+time_estimation_ProtBert_E_coli_gpu,362,298.83,0.0427,0.21,1641.74,1644.76,0.5701,0.24
+time_estimation_ProtBert_H_sapiens_gpu,586,550.37,0.0704,0.15,1715.25,1717.0,0.989,0.39
+time_estimation_ProtBert_SwissProt_cpu,337,359.14,2.4462,8.13,0.0,0,0.5069,13.59
+time_estimation_ProtBert_SwissProt_gpu,337,359.14,0.0486,0.19,1713.09,1717.0,0.9417,0.27
+time_estimation_iupred_E_coli_long,362,298.83,0.008,0.03,12.23,12.26,0.9919,0.04
+time_estimation_iupred_E_coli_short,362,298.83,0.0054,0.02,12.22,12.25,0.9745,0.03
+time_estimation_iupred_H_sapiens_long,586,550.37,0.0133,0.03,12.53,12.57,0.9983,0.07
+time_estimation_iupred_H_sapiens_short,586,550.37,0.0088,0.02,12.53,12.57,0.9799,0.05
+time_estimation_iupred_SwissProt_long,337,359.14,0.0104,0.03,12.28,12.56,0.9947,0.06
+time_estimation_iupred_SwissProt_short,337,359.14,0.0068,0.02,12.28,12.56,0.9926,0.04

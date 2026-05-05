@@ -1,0 +1,7 @@
+Species,Mode,Total_AA,Disorder_Pct
+E. coli,long,1345532,5.1
+E. coli,short,1345532,6.28
+H. sapiens,long,11084198,25.42
+H. sapiens,short,11084198,22.27
+SwissProt,long,183329824,12.32
+SwissProt,short,183329824,12.01

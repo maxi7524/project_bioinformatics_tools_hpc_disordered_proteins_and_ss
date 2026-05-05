@@ -1,0 +1,10 @@
+Metric,Value
+Source File,cpu_stats.csv
+Total Sequences,362
+Avg Length [aa],298.83
+Avg Time/Seq [s],1.9875
+Avg Time/AA [ms],7.13
+Avg Memory [MB],0.0
+Max Memory [MB],0
+Correlation,0.9916
+Human Proteome Est (20k prot) [h],11.04

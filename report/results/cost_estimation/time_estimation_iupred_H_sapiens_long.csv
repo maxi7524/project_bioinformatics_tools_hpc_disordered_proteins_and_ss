@@ -1,0 +1,10 @@
+Metric,Value
+Source File,stats.csv
+Total Sequences,586
+Avg Length [aa],550.37
+Avg Time/Seq [s],0.0133
+Avg Time/AA [ms],0.03
+Avg Memory [MB],12.53
+Max Memory [MB],12.57
+Correlation,0.9983
+Human Proteome Est (20k prot) [h],0.07

@@ -1,0 +1,4 @@
+Species,Total_AA,Helix_Pct,Strand_Pct,Coil_Pct
+E. coli,1345532,42.77,16.46,40.77
+H. sapiens,11084198,27.69,9.7,62.61
+SwissProt,183329824,35.5,14.32,50.19

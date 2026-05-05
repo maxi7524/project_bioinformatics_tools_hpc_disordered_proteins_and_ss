@@ -1,0 +1,9 @@
+model_bert/
+iupred2a
+data
+venv_ProtBert/
+*.zip
+*.tar.gz
+__pycache__/
+*.log
+
